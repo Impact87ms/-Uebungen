@@ -1,0 +1,15 @@
+"""Übung 1: Der interaktive Begrüßer 💬
+• Logik:
+        • Nutze input(), um den Nutzer nach seinem Namen zu fragen und speichere ihn in einer Variable.
+        • Frage den Nutzer nach seiner Lieblingsfarbe und speichere sie.
+• Ausgabe:
+        • Gib einen dynamischen Satz aus (gerne auch als f-String), der beide Antworten kombiniert.
+        • Beispiel: "Hallo [Name]! Das ist ja toll, ich mag die Farbe [Farbe] auch!"
+"""
+
+# Logik
+name = input("Wie lautet dein Name?")
+farbe = input("Was ist deine Lieblingsfarbe?")
+
+# Ausgabe
+print(f"Hallo {name}! Die Farbe {farbe} ist super!")
